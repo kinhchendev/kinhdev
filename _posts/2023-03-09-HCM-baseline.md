@@ -1,7 +1,11 @@
 ---
-layout: page
-title: About
-permalink: /about/
+title: Ho Chi Minh City baseline
+author: kinhdev
+date: 2023-03-09 10:55:00 +0800
+categories: [Blogging, Tutorial]
+tags: [getting started]
+pin: false
+hidden: false
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)

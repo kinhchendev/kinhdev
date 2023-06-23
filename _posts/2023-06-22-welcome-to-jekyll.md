@@ -1,8 +1,11 @@
 ---
-layout: post
-title:  "New Title!"
-date:   2023-06-22 14:56:26 +0700
-categories: jekyll update
+title: Getting Started
+author: kinhdev
+date: 2023-06-22 20:55:00 +0800
+categories: [Blogging, Tutorial]
+tags: [getting started]
+pin: false
+hidden: false
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
