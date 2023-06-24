@@ -51,6 +51,20 @@ refactor: true
   {% endunless %}
 >
   {% for post in posts %}
+    {% assign titleColor = "" %}
+    {% assign contentColor = "" %}
+    {% if post.blog == true %}
+      {% assign titleColor = "LightSkyBlue" %}
+      {% assign contentColor = "#5684A0" %}
+    {% elsif post.project == true %}
+      {% assign titleColor = "Gold" %}
+      {% assign contentColor = "#A38A00" %}
+    {% elsif post.tech == true %}
+      {% assign titleColor = "Tomato" %}
+      {% assign contentColor = "#A33F2E" %}
+    {% endif %}
+    
+
     <a href="{{ post.url | relative_url }}" class="card-wrapper">
       <div class="card post-preview flex-md-row-reverse">
         {% if post.image %}
@@ -69,12 +83,12 @@ refactor: true
         {% endif %}
 
         <div class="card-body d-flex flex-column">
-          <h1 class="card-title my-2 mt-md-0">
+          <h1 class="card-title my-2 mt-md-0" style='color: {{titleColor}}'>
             {{ post.title }}
           </h1>
 
           <div class="card-text post-content mt-0 mb-2">
-            <p>
+            <p style='color: {{contentColor}}'>
               {% include no-linenos.html content=post.content %}
               {{ content | markdownify | strip_html | truncate: 200 | escape }}
             </p>

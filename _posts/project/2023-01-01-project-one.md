@@ -1,11 +1,12 @@
 ---
-title: Gold price drop sharply
+title: Project one
 author: kinhdev
-date: 2023-05-11 10:55:00 +0800
-categories: [Blogging, Tutorial]
-tags: [getting started]
+date: 2023-01-01 10:55:00 +0800
+categories: [Projects, App]
+tags: [color,book]
 pin: false
 hidden: false
+project: true
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)

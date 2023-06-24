@@ -21,7 +21,7 @@
 # baseurl: ""   # to run locally
 baseurl: "kinhdev"  # to run on github pages
 
-title: Kinh Dev Blog
+title: Kinh Dev
 tagline: A personal blog from a developer # it will display as the sub-title
 email: kinhchendev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
