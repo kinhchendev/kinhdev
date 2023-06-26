@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# baseurl: ""   # to run locally
-baseurl: "kinhdev"  # to run on github pages
+baseurl: ""   # to run locally and public domain
+# baseurl: "kinhdev"  # to run on github pages
 
 title: Kinh Dev
 tagline: A personal blog from a developer # it will display as the sub-title
