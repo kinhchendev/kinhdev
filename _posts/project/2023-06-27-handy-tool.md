@@ -9,6 +9,9 @@ hidden: false
 project: true
 ---
 
+[![appstore-link](/assets/icon/icon_app_store.svg)](https://apps.apple.com/us/app/simple-handy-tools/id6451041681)
+[![playstore-link](/assets/icon/icon_google_play.svg)](https://play.google.com/store/apps/details?id=com.keeleysoft.handytools)
+
 For almost a decade working as a iOS Developer, I almost stick with iOS platform and native framework Objective-C and Swift. Now, I know that it kinda late to switch to hybrid framework but late is better than never. I did spent time to study Flutter for months now. Although at first glance I think it will be hard and not powerful as native frameworks, but with large community and thanks to Google, I got the basic thinking flow of Flutter and made a first app. It just a tool app to demonstrate what I've learn so far, so it doesn't matter you use it or not.
 
 ## What I've learn when doing this project is
