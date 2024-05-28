@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Field Processor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            padding: 5px;
+            width: 100%;
+        }
+
+        button {
+            background-color: #CF1F1F; /* Red */
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #result {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Setup RTMP Live streaming</h2>
+    <form id="myForm">
+        <label for="value1">Stream url</label>
+        <input type="text" id="value1" name="value1" required placeholder="Enter stream url, for e.g. rtmp://a.rtmp.youtube.com/live2"><br>
+        <label for="value2">Stream key</label>
+        <input type="text" id="value2" name="value2" required placeholder="Enter stream key, optional depends on live server"><br><br>
+        <button type="button" onclick="processValues()">Start Live stream</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script>
+        function processValues() {
+            const param1 = document.getElementById("value1").value;
+            const param2 = document.getElementById("value2").value;
+
+            // Construct the base URL
+            const baseUrl = "https://https://kinhdev.kini.info.vn/live/start"; // Replace with your actual URL
+
+            // Build the query string parameters
+            const queryString = `streamurl=${param1}&streamkey=${param2}`;
+
+            // Combine base URL and query string
+            const fullUrl = `${baseUrl}?${queryString}`;
+
+            // // Display the generated link in a paragraph
+            // const linkTextElement = document.getElementById("linkText");
+            // linkTextElement.textContent = `Generated Link: ${fullUrl}`;
+
+            // Optionally, uncomment the following line to navigate to the link
+            window.location.href = fullUrl; // Uncomment to navigate
+        }
+    </script>
+</body>
+</html>

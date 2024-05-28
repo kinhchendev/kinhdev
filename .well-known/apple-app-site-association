@@ -10,7 +10,7 @@
         ],
         "components":[
           {
-            "/":"/live",
+            "/":"/live/*",
             "comment":"Matches URL with a path /live"
           },
         ]
