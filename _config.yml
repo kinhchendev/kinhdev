@@ -214,6 +214,7 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
+include: [".well-known"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,0 +1,20 @@
+{
+  "applinks":{
+    "apps":[
+       
+    ],
+    "details":[
+      {
+        "appIDs":[
+          "LAQRYXVEQ4.com.keeleysoft.quickomLive"
+        ],
+        "components":[
+          {
+            "/":"/live",
+            "comment":"Matches URL with a path /live"
+          },
+        ]
+      }
+    ]
+  }
+}
