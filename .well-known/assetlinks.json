@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.quickom_live",
+      "sha256_cert_fingerprints":
+        ["D3:37:29:96:82:3A:EF:76:08:27:3A:36:7E:CE:6A:C2:B7:08:AA:04:E3:96:0B:29:35:CC:62:8C:78:6F:B8:32"]
+    }
+  }
+]
