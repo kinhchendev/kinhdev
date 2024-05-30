@@ -5,9 +5,7 @@
     ],
     "details":[
       {
-        "appIDs":[
-          "LAQRYXVEQ4.com.keeleysoft.quickomLive"
-        ],
+        "appID":"LAQRYXVEQ4.com.keeleysoft.quickomLive",
         "paths": [
           "/live/*"
         ]
