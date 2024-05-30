@@ -73,20 +73,33 @@
             const param2 = document.getElementById("value2").value;
 
             // Construct the base URL
-            const baseUrl = "https://kinhdev.kini.info.vn/live/start"; // Replace with your actual URL
+            const androidBaseUrl = "https://kinhdev.kini.info.vn/live/start"; // Replace with your actual URL
+            const iosBaseUrl = "quickomLive://kinhdev.kini.info.vn/live/start"; // Replace with your actual URL
 
             // Build the query string parameters
             const queryString = `streamurl=${param1}&streamkey=${param2}`;
 
-            // Combine base URL and query string
-            const fullUrl = `${baseUrl}?${queryString}`;
+            if (isIOS()) {
+                // Combine base URL and query string
+                const fullUrl = `${iosBaseUrl}?${queryString}`;
 
-            // // Display the generated link in a paragraph
-            // const linkTextElement = document.getElementById("linkText");
-            // linkTextElement.textContent = `Generated Link: ${fullUrl}`;
+                // Optionally, uncomment the following line to navigate to the link
+                window.location.href = fullUrl; // Uncomment to navigate
+            } else if (isAndroid()) {
+                // Combine base URL and query string
+                const fullUrl = `${androidBaseUrl}?${queryString}`;
 
-            // Optionally, uncomment the following line to navigate to the link
-            window.location.href = fullUrl; // Uncomment to navigate
+                // Optionally, uncomment the following line to navigate to the link
+                window.location.href = fullUrl; // Uncomment to navigate
+            }
+            
+        }
+        function isIOS() {
+            return /iPad|iPhone|iPod/.test(navigator.userAgent);
+        }
+
+        function isAndroid() {
+            return /Android/.test(navigator.userAgent);
         }
     </script>
 </body>
