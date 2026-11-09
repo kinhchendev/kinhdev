@@ -24,10 +24,10 @@ Vẹt Đánh Vần là người bạn đồng hành lý tưởng giúp các bé 
 
 ## Một số hình ảnh trong ứng dụng
 
-|  ![enter image description here](https://www.mediafire.com/convkey/cad2/e86vigbn9filz8z9g.jpg)| ![enter image description here](https://www.mediafire.com/convkey/32d3/o2zq85i7rkdmgxl9g.jpg) |
+|  ![home_screen](https://ik.imagekit.io/fsdi3rvm9/danh_van_tieng_viet_portfolio/home_screen.PNG)| ![lesson_screen](https://ik.imagekit.io/fsdi3rvm9/danh_van_tieng_viet_portfolio/lesson_screen.PNG) |
 |--|--|
-| ![enter image description here](https://www.mediafire.com/convkey/ab18/1y4cflppkq2t0g49g.jpg) | ![enter image description here](https://www.mediafire.com/convkey/9fb7/dmme9xzblr1f3309g.jpg) |
- ![enter image description here](https://www.mediafire.com/convkey/4619/py5zs2c2yzjrdor9g.jpg) |
+| ![lesson_detail_screen](https://ik.imagekit.io/fsdi3rvm9/danh_van_tieng_viet_portfolio/lesson_detail_screen.PNG) | ![vocabulary_screen](https://ik.imagekit.io/fsdi3rvm9/danh_van_tieng_viet_portfolio/vocabulary_screen.PNG) |
+ ![alphabet_screen](https://ik.imagekit.io/fsdi3rvm9/danh_van_tieng_viet_portfolio/alphabet_screen.PNG) | ![letter_writing_screen](https://ik.imagekit.io/fsdi3rvm9/danh_van_tieng_viet_portfolio/letter_writing_screen.PNG)
 
 <br><br><br>
 
